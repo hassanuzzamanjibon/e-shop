@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,600&family=Lato:ital@1&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,600&family=Roboto+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header a {
+  color: royalblue;
+  margin-left: 8%;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-decoration: none;
+  width: 20%;
+  font-size: 4rem;
+}
+.search-area {
+  margin-right: 2%;
+  border: 2px solid rgba(163, 158, 158, 0.507);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 170px;
+  height: 50px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 30px #908c8c;
+}
+.searchBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  width: 160px;
+  height: 50px;
+}
+.searchBox .fa-search {
+  color: royalblue;
+  font-size: 20px;
+}
+input[type="search"] {
+  border: 0;
+  height: 30px;
+  width: 90px;
+  font-size: 1rem;
+  color: rgb(49, 48, 48);
+  font-family: calibri;
+}
