@@ -178,8 +178,9 @@ input[type="search"] {
 }
 .heading h2 {
   display: block;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   text-align: center;
+  color: #2f2e41;
 }
 .product {
   margin: 10px;
@@ -282,6 +283,7 @@ input[type="search"] {
   width: 55%;
 }
 .about-text-section h1 {
+  color: #2f2e41;
   word-spacing: 26px;
   font-family: roboto;
   font-size: 4.4rem;
@@ -292,6 +294,7 @@ input[type="search"] {
   text-align: justify;
 }
 .about-text-section h2 {
+  color: #2f2e41;
   margin-bottom: 10px;
   font-family: roboto;
   font-size: 2rem;
@@ -299,7 +302,7 @@ input[type="search"] {
   text-align: left;
   letter-spacing: 6px;
 }
-.about-text-section p {
+.about-text-section p { color: #47464b;
   font-size: 1rem;
   text-align: justify;
   text-transform: none;
@@ -327,3 +330,16 @@ input[type="search"] {
 }
 
 /* about section css end */
+/* footer section css start */
+.footer{display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    background-color: rgba(158, 158, 158, 0.883);
+    color: rgb(121, 118, 118);
+}
+.footer p{font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+/* footer section css end */
