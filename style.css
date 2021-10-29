@@ -208,8 +208,10 @@ input[type="search"] {
   padding: 5px 10px;
   height: 180px;
   width: 96%;
+  margin-bottom: 8px;
 }
 .product-box > p {
+  margin-bottom: 8px;
   color: #948dd8dc;
 }
 .product-box .currency {
@@ -302,7 +304,8 @@ input[type="search"] {
   text-align: left;
   letter-spacing: 6px;
 }
-.about-text-section p { color: #47464b;
+.about-text-section p {
+  color: #47464b;
   font-size: 1rem;
   text-align: justify;
   text-transform: none;
@@ -331,15 +334,17 @@ input[type="search"] {
 
 /* about section css end */
 /* footer section css start */
-.footer{display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4vh;
-    background-color: rgba(158, 158, 158, 0.883);
-    color: rgb(121, 118, 118);
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4vh;
+  background-color: rgba(158, 158, 158, 0.883);
+  color: rgb(121, 118, 118);
 }
-.footer p{font-size: 1rem;
-    text-transform: capitalize;
-    letter-spacing: 3px;
+.footer p {
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
 }
 /* footer section css end */
