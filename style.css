@@ -4,8 +4,9 @@
   padding: 0;
   outline: 0;
 }
+/* header css start */
 .header {
-  height: 100px;
+  height: 15vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -20,6 +21,7 @@
   font-size: 4rem;
 }
 .search-area {
+  display: fixed;
   margin-right: 2%;
   border: 2px solid rgba(163, 158, 158, 0.507);
   border-radius: 30px;
@@ -30,7 +32,7 @@
   width: 170px;
   height: 50px;
   box-sizing: border-box;
-  box-shadow: 2px 2px 30px #908c8c;
+  box-shadow: -2px 2px 10px #908c8c;
 }
 .searchBox {
   display: flex;
@@ -52,3 +54,104 @@ input[type="search"] {
   color: rgb(49, 48, 48);
   font-family: calibri;
 }
+/* header css end */
+
+/* main-content css start */
+.main-content {
+/*     background-color: yellow; */
+  height: 87vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon-content {display: fixed;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icon {
+  box-shadow: 2px 2px 30px #908c8c;
+  box-sizing: border-box;
+  border-radius: 30px;
+  position: absolute;
+  top: 45%;
+  height: 220px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-icon .fab {
+  padding: 15px 5px;
+  font-size: 1.25rem;
+  color: #9b9aa5;
+  transition: 0.3s all;
+}
+.social-icon .fab:hover {
+  font-size: 2.2rem;
+  color: #5144df;
+}
+.right-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row img {
+  margin-left: 10%;
+  width: 700px;
+  height: 400px;
+}
+.text-section {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 35%;
+}
+.text-section h1 {
+  font-family: roboto;
+  font-size: 4.4rem;
+  display: block;
+  text-align: left;
+  letter-spacing: 35px;
+}
+.text-section h2 {
+  font-family: roboto;
+  font-size: 4.4rem;
+  display: block;
+  text-align: left;
+  letter-spacing: 3px;
+}
+.text-color {
+  font-family: sans-serif;
+  color: royalblue;
+}
+.buy-btn {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  color: white;
+  border-radius: 20px;
+  background-color: #2f2e41;
+  display: inline-block;
+  text-transform: uppercase;
+  height: 50px;
+  width: 150px;
+  padding: 10px 15px;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+.buy-btn:hover {
+  background-color: royalblue;
+}
+
+/* main-content css end */
